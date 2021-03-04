@@ -38,6 +38,7 @@ tail(gene)
 ```{r}
 # Investigate the characteristics of the data.
 ```
+There are 217 samples of 2001 variables. One variable is categorical and the rest 2000 variables are numerical.
 
 3. In some scenarios, it may be helpful to transform or preprocess your data in some way before embarking on your analysis. For example, one may wish to center and standardize each numerical variable before performing certain regression analyses. On the other hand, one may wish to group some factors of a categorical variable together. Perform any preprocessing that you feel is appropriate and discuss the motivation for this choice. If you decide not to, explain why. Note that it may be helpful to omit this step and return at a later point once you have explored the data a bit.
 ```{r, eval=FALSE}

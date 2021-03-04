@@ -18,7 +18,7 @@ subtitle: $\textbf{Machine Learning, Spring 2021}$
 *{Fill in your introduction}*
 
 # Setup
-```{r, eval=FALSE}
+```{r}
 set.seed(315)
 # Load necessary packages
 library(tidyverse)
@@ -27,7 +27,7 @@ library(tidyverse)
 
 # Loading and Preprocessing the Data
 1. Begin by loading the dataset you've chosen. Depending on which dataset you've chosen, it may be helpful to consider a subset of the data for your analyses. Give an explanation as to why you did or did not subset your data.
-```{r, eval=FALSE}
+```{r}
 # Load the data.
 gene <- read.table("TCGA_sample.txt", header = T) #we are going to use this dataset
 head(gene)
@@ -35,7 +35,7 @@ tail(gene)
 ```
 
 2. Next, provide some basic information about the data. What are the samples and what are the variables? How many samples are there? How many variables are there? How many of those variables are numerical vs categorical? How many of the numerical variables are discrete? Discuss any other information about the data that you think is relevant.
-```{r eval=FALSE}
+```{r}
 # Investigate the characteristics of the data.
 ```
 
